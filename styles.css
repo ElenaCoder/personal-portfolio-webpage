@@ -87,7 +87,7 @@ h2 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 h2 {
@@ -163,9 +163,18 @@ img {
 
 .welcome-section > p {
     font-size: 3rem;
-    font-weight: 200;
+    font-weight: 600;
     font-style: italic;
     color: var(--main-darkslategray);
+}
+p.details {
+    margin: 1rem 5rem;
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--main-darkslategray);
+    font-style: normal;
+    align-self: flex-start;
 }
 
 /* Projects section */
@@ -316,6 +325,6 @@ img {
     color: var(--main-powderblue);
 }
 
-.hide{
+.hide {
     display: none;
 }
