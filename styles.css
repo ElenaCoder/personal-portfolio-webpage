@@ -159,6 +159,7 @@ img {
     height: 100vh;
     background-color: var(--main-silver);
     /* background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); */
+    padding-top: 7rem;
 }
 
 .welcome-section > p {
